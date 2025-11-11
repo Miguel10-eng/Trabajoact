@@ -1,0 +1,55 @@
+/* ===BOTONES DESPLEGABLES====*/
+.btn-azul-moderno {
+  background: transparent !important;              /* invisible al inicio */
+  color: #343a40;                       /* texto neutro */
+  border: 1px solid transparent !important;        /* sin borde visible */
+  border-radius: 20px;                  /* bordes suaves */
+  padding: 8px 22px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: all 0.4s ease;
+  box-shadow: none;
+}
+
+.btn-azul-moderno:hover {
+  background: linear-gradient(135deg, #0b5ed7, #0a58ca) !important;
+  box-shadow: 0 6px 14px rgba(13, 110, 253, 0.35);
+  transform: translateY(-2px);
+  color: white;
+}
+
+.btn-azul-moderno:active {
+  transform: translateY(0.98);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+
+.search-form {
+  border-radius: 20px;
+  min-width: 30vh;
+  height: 4vh;
+}
+
+
+/* === 💻 AJUSTES PARA PORTÁTILES (768px a 1632px) === */
+@media (min-width: 768px) and (max-width: 1632px) {
+ .search-form{
+  border-radius: 20vh;
+  min-width: 40vh;
+  height: 6vh;
+}
+}
+
+.contenido-gestion-radicados{
+  height: 70vh; 
+  overflow: hidden;
+}
+
+/* === 💻 AJUSTES PARA PORTÁTILES (768px a 1632px) === */
+@media (min-width: 768px) and (max-width: 1632px) {
+.contenido-gestion-radicados{
+  height: 55vh; 
+  overflow: hidden;
+}
+}
