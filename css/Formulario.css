@@ -89,7 +89,7 @@ main.content-main {
 /* 💻 Vista laptop mediana (entre 992px y 1200px) */
 @media (min-width: 768px) and (max-width: 1632px) {
   .botones-fijos-tab {
-    max-width: 77vh;             /* Un poco más ancho */
+    max-width: 74vh;             /* Un poco más ancho */
     justify-content: flex-end;   /* Mantiene la alineación a la derecha */
   }
 }

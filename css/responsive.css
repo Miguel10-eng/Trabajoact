@@ -1,14 +1,17 @@
 /* === ESTILOS BASE === */
-.main-ajustado {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.contprincipal-ajustado {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
-/* === 💻 AJUSTES PARA PORTÁTILES (768px a 1366px) === */
-@media (min-width: 768px) and (max-width: 1632px) {
 
-  .main-ajustado { 
-    max-height: 800px !important;
+/* === 💻 AJUSTES PARA PORTÁTILES (768px a 1366px) === */
+@media (min-width: 768px) and (max-width: 1832px) {
+
+  .contprincipal-ajustado { 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
   }
 
   .contenido-tab {

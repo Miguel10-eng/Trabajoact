@@ -84,11 +84,6 @@
   .panel-detalle {
    height: 47vh; /* ocupa toda la altura visible */
   }
-
-  .sidebar-collapsed ~ .barra-secundaria {
-  height: 50vh; /* más alta cuando el sidebar está colapsado */
- }
-  
 }
 
 .panel-detalle-1 {
