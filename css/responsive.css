@@ -5,14 +5,10 @@
 }
 
 /* === 💻 AJUSTES PARA PORTÁTILES (768px a 1366px) === */
-@media (min-width: 768px) and (max-width: 1100px) {
+@media (min-width: 768px) and (max-width: 1632px) {
 
-  .main-ajustado {
-    max-width: 1000px !important;   /* Evita que el contenido se vea muy ancho */
-    margin: 0 auto;      /* Centra el bloque en pantalla */
+  .main-ajustado { 
     max-height: 800px !important;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .contenido-tab {
