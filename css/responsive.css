@@ -29,3 +29,18 @@
     text-align: right;
   }
 }
+
+/* === DROPDOWN MODERNO CON ANIMACIÓN === */
+.dropdown-menu.dropdown-modern {
+  transform: translateY(10px);       /* inicia un poco abajo */
+  opacity: 0;                        /* inicia invisible */
+  visibility: hidden;
+  transition: all 0.25s ease;        /* animación suave */
+}
+
+/* Cuando se muestra */
+.dropdown-menu.dropdown-modern.show {
+  transform: translateY(0);          /* sube a su posición natural */
+  opacity: 1;
+  visibility: visible;
+}

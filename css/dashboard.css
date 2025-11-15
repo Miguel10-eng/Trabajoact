@@ -334,6 +334,21 @@ header .dropdown-item:hover {
   color: #2563eb;
 }
 
+/* === DROPDOWN MODERNO CON ANIMACIÓN === */
+header .dropdown-menu.dropdown-modern {
+  transform: translateY(10px);       /* inicia un poco abajo */
+  opacity: 0;                        /* inicia invisible */
+  visibility: hidden;
+  transition: all 0.25s ease;        /* animación suave */
+}
+
+/* Cuando se muestra */
+header .dropdown-menu.dropdown-modern.show {
+  transform: translateY(0);          /* sube a su posición natural */
+  opacity: 1;
+  visibility: visible;
+}
+
 /* ==== TEXTO USUARIO ==== */
 header small.text-muted {
   color: #6c757d !important;
@@ -343,17 +358,6 @@ header small.text-muted {
   border-radius: 10px;
 }
 
-/* ==== ANIMACIÓN ==== */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-4px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 /* ---- CARD PERSONALIZADA ---- */
 .gradient-card {
